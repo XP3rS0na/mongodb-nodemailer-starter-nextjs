@@ -1,8 +1,8 @@
 'use client'
-import { FormData } from '@/app/components/contact/page';
+import { FormData } from '@/app/components/mongodb/page';
 
-export async function sendEmail(data: FormData) {
-  const apiEndpoint = '/api/email';
+export async function sendDB(data: FormData) {
+  const apiEndpoint = './api/db';
   let status  = 500;
   await fetch(apiEndpoint, {
     method: 'POST',
