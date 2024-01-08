@@ -6,12 +6,12 @@ export default function Home() {
       <ol>
         <li>
           <Link 
-          href="../contact/">Contact (email)
+          href="../components/contact/">Contact (email)
           </Link>
         </li>
         <li>
           <Link 
-          href="../mongodb/">MongoDB
+          href="../components/mongodb/">MongoDB
           </Link>
         </li>
       </ol> 
